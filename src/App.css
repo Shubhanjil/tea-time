@@ -1,0 +1,219 @@
+:root {
+  --bg: #e8f7ff;             /* Light sky blue background */
+--text-dark: #2d4a6d;      /* Deep navy blue for text */
+--highlight: #b2d8f7;      /* Soft sky blue highlight */
+--card-bg: #f0f9ff;        /* Very light blue for cards */
+--input-bg: #d1e8f4;       /* Soft pastel blue for inputs */
+--button-bg: #4fa3d1;      /* Sky blue button background */
+--button-hover: #3c8fb5;   /* Slightly darker blue for button hover */
+--accent-light: #92c9e1;   /* Light teal blue accents */
+--table-bg: #ffffff;       /* Clean white table background */
+--table-alt-bg: #f0faff;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--text-dark);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: var(--highlight);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--text-dark);
+}
+
+.App-link {
+  color: var(--accent-light);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app {
+  max-width: 720px;
+  margin: auto;
+  padding: 2rem;
+  background-color: var(--highlight);
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+}
+
+.theme-controls {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.theme-controls select,
+.theme-controls button {
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: var(--button-bg);
+  color: #fff;
+  transition: background 0.2s ease;
+}
+
+.theme-controls button:hover,
+.theme-controls select:hover {
+  background-color: var(--button-hover);
+}
+
+form {
+  background-color: var(--card-bg);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.04);
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+form label {
+  font-weight: 600;
+  color: var(--text-dark);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="time"],
+select,
+textarea {
+  padding: 0.6rem;
+  border: 1px solid var(--accent-light);
+  border-radius: 10px;
+  background-color: var(--input-bg);
+  font-size: 1rem;
+  font-family: inherit;
+  color: var(--text-dark);
+}
+
+textarea {
+  resize: vertical;
+}
+
+.task-input {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.task-input input,
+.task-input select {
+  flex: 1;
+}
+
+.task-input button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button[type="submit"],
+button[type="button"] {
+  background-color: var(--button-bg);
+  border: none;
+  border-radius: 10px;
+  padding: 0.7rem 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+  background-color: var(--button-hover);
+}
+
+.timetable-output table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--table-bg);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.timetable-output th {
+  background-color: var(--accent-light);
+  color: var(--text-dark);
+  padding: 12px;
+  text-align: center;
+}
+
+.timetable-output td {
+  padding: 10px;
+  text-align: center;
+  background-color: var(--table-bg);
+  border-top: 1px solid #eee;
+  color: var(--text-dark);
+}
+
+.timetable-output tr:nth-child(even) td {
+  background-color: var(--table-alt-bg);
+}
+
+.clear-data {
+  background-color: var('--button-bg');
+  color: var('--text-dark');
+  border: 1px solid var('--button-bg');
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.clear-data:hover {
+  background-color: var('--button-hover');
+  transform: scale(1.05);
+}
+
+.clear-data:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(144, 116, 241, 0.4);
+}
