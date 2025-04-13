@@ -1,3 +1,14 @@
+
+![teatime1](https://github.com/user-attachments/assets/559e41ae-fbe1-4996-88f0-424129d5a5c9)
+<br>
+<br>
+![teatime2](https://github.com/user-attachments/assets/a49c48f5-151b-4ddf-9218-d9c2c59ed4b8)
+<br>
+<br>
+![teatime3](https://github.com/user-attachments/assets/266b8d81-fdef-455c-b7c7-249db08a9f6b)
+<br>
+<br>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
