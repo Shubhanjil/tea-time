@@ -20,7 +20,8 @@ Styling: CSS, HTML
 AI Integration: Cohere
 
 ### Tea Time is ideal for anyone looking to streamline their day, improve productivity, and manage time more effectively.
-<br>
+
+
 ![teatime1](https://github.com/user-attachments/assets/559e41ae-fbe1-4996-88f0-424129d5a5c9)
 <br>
 <br>
