@@ -1,8 +1,8 @@
-Tea-Time: AI-Powered Task & Schedule Manager
+#Tea-Time: AI-Powered Task & Schedule Manager
 
 Tea-Time is a sleek, user-friendly web application designed to help students and professionals manage their daily tasks and schedules efficiently. Built with React.js and styled with a soft, pastel-themed UI, Tea-Time combines intuitive design with AI-enhanced features to optimize productivity.
 
-Key Features:
+##Key Features:
 
 • Create, edit, and track tasks and schedules.
 • AI-assisted suggestions for better task management.
@@ -10,12 +10,12 @@ Key Features:
 • Responsive, pastel-themed interface for a calm and organized workflow.
 • Easy navigation with a minimalistic design.
 
-Tech Stack:
+##Tech Stack:
 Frontend: React.js
 Styling: CSS, HTML
 AI Integration: Cohere
 
-Tea Time is ideal for anyone looking to streamline their day, improve productivity, and manage time more effectively.
+###Tea Time is ideal for anyone looking to streamline their day, improve productivity, and manage time more effectively.
 
 ![teatime1](https://github.com/user-attachments/assets/559e41ae-fbe1-4996-88f0-424129d5a5c9)
 <br>
