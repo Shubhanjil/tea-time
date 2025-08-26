@@ -5,9 +5,13 @@ Tea-Time is a sleek, user-friendly web application designed to help students and
 ## Key Features:
 
 • Create, edit, and track tasks and schedules.
+
 • AI-assisted suggestions for better task management.
+
 • You can download your timetable as a PDF, image, or Excel sheet for easy offline access.
+
 • Responsive, pastel-themed interface for a calm and organized workflow.
+
 • Easy navigation with a minimalistic design.
 
 ## Tech Stack:
@@ -16,7 +20,7 @@ Styling: CSS, HTML
 AI Integration: Cohere
 
 ### Tea Time is ideal for anyone looking to streamline their day, improve productivity, and manage time more effectively.
-
+<br>
 ![teatime1](https://github.com/user-attachments/assets/559e41ae-fbe1-4996-88f0-424129d5a5c9)
 <br>
 <br>
